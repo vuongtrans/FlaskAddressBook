@@ -1,0 +1,21 @@
+https://docs.google.com/document/d/1KEuINt7Xxbtb1KAxaGF_bURd_F3v7GK0QQtpjOZAB9k/edit#
+https://www.youtube.com/watch?v=hASvVnmurpI
+https://github.com/dpgaspar/Flask-AppBuilder/blob/master/examples/employees/app/views.py
+https://github.com/dpgaspar/Flask-AppBuilder/blob/master/examples/employees/app/models.py
+
+01. cd desktop
+02. mkdir FlaskAddress
+03. cd FlaskAddress
+04. python3 -m venv venv
+05. source venv/bin/activate
+06. pip3 install flask-appbuilder
+07. fabmanager addressbook
+
+** cd "/Applications/Python 3.8/"
+   sudo "./Install Certificates.command"
+
+08. fabmanager create-admin
+- epscot | Scott | Tran | ... | flaskapp
+
+09. Access app via 127.0.0.1:8080
+    fabmanager run
