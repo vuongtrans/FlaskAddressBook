@@ -17,10 +17,10 @@ app.config.from_object("config")
 db = SQLA(app)
 appbuilder = AppBuilder(app, db.session)
 
-@app.route('/show')
+@app.route('/contacts')
 def show_all():
    # GET
-   return render_template('show_all.html', contacts = db.session.query(Contact) )
+   return render_template('show_contacts.html', contacts = db.session.query(Contact) )
 
 @app.route('/add', methods = ['GET', 'POST'])
 def new():
@@ -40,7 +40,7 @@ def new():
         db.session.commit()
         flash('Record was successfully added')
         return redirect(url_for('show_all'))
-   return render_template('new.html')
+   return render_template('add_contact.html')
 
 
 """

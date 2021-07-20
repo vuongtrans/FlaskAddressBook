@@ -19,3 +19,7 @@ https://github.com/dpgaspar/Flask-AppBuilder/blob/master/examples/employees/app/
 
 09. Access app via 127.0.0.1:8080
     fabmanager run
+
+    127.0.0.1:8080 --> Access admin control
+    127.0.0.1:8080/add --> Add a new contact
+    127.0.0.1:8080/contacts --> Show all contacts
